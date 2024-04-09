@@ -11,6 +11,11 @@ jobs:
     permissions:
       contents: read
       id-token: write
+    strategy:
+      matrix:
+        package:
+          - database
     steps:
       - uses: actions/checkout@v4
       - run: npx jsr publish
+        working-directory: ${{ matrix.package }}
