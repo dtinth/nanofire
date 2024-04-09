@@ -1,9 +1,9 @@
+import { initializeApp } from "firebase/app";
+import { getDatabase, ref } from "firebase/database";
 import { assert } from "jsr:@std/assert@^0.221.0";
-import { initializeApp } from "npm:firebase@10/app";
-import { getDatabase, ref } from "npm:firebase@10/database";
 import { getFirebaseDatabaseQueryStore } from "./mod.ts";
 
-initializeApp({
+const app = initializeApp({
   apiKey: "AIzaSyDLDD_KtKkfAj9sgOHupxUuDt_p8g19bkU",
   authDomain: "fiery-react.firebaseapp.com",
   databaseURL: "https://fiery-react.firebaseio.com",
@@ -12,7 +12,7 @@ initializeApp({
   messagingSenderId: "284926450412",
 });
 
-const db = getDatabase();
+const db = getDatabase(app);
 
 Deno.test({
   name: "can load data",

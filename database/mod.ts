@@ -1,5 +1,5 @@
-import { DataSnapshot, Query, onValue } from "npm:firebase@10/database";
-import { ReadableAtom, atom, onMount } from "npm:nanostores@0.10";
+import { DataSnapshot, Query, onValue } from "firebase/database";
+import { ReadableAtom, atom, onMount } from "nanostores";
 
 const cache: Map<string, ReadableAtom> = new Map();
 
