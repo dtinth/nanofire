@@ -1,0 +1,5 @@
+{
+  "name": "@nanofire/database",
+  "version": "0.1.1",
+  "exports": "./mod.ts"
+}
