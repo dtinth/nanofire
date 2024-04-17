@@ -1,9 +1,9 @@
 {
   "name": "@nanofire/database",
-  "version": "0.1.3-2",
+  "version": "0.1.3-3",
   "exports": "./mod.ts",
   "imports": {
-    "firebase": "npm:firebase@^10",
+    "firebase": "npm:firebase@10",
     "nanostores": "npm:nanostores@^0.10"
   }
 }
