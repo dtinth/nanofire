@@ -4,7 +4,7 @@
     "specifiers": {
       "jsr:@std/assert@^0.221.0": "jsr:@std/assert@0.221.0",
       "jsr:@std/fmt@^0.221.0": "jsr:@std/fmt@0.221.0",
-      "npm:firebase@^10": "npm:firebase@10.10.0_@firebase+app@0.10.0_@firebase+app-compat@0.2.30_@firebase+app-types@0.9.1",
+      "npm:firebase@10": "npm:firebase@10.10.0_@firebase+app@0.10.0_@firebase+app-compat@0.2.30_@firebase+app-types@0.9.1",
       "npm:nanostores@^0.10": "npm:nanostores@0.10.3"
     },
     "jsr": {
@@ -649,7 +649,7 @@
   "remote": {},
   "workspace": {
     "dependencies": [
-      "npm:firebase@^10",
+      "npm:firebase@10",
       "npm:nanostores@^0.10"
     ]
   }

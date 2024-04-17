@@ -1,0 +1,6 @@
+{
+  "imports": {
+    "firebase": "npm:firebase@10",
+    "nanostores": "npm:nanostores@^0.10"
+  }
+}
